@@ -1,0 +1,29 @@
+{
+  "name": "mak-token-contract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.0",
+    "@openzeppelin/contracts": "4.8.0",
+    "@openzeppelin/contracts-upgradeable": "4.9",
+    "@openzeppelin/hardhat-upgrades": "^3.0.4",
+    "hardhat": "^2.22.9",
+    "chai": "^4.2.0",
+    "dotenv": "^16.4.5",
+    "closedsea": "^1.0.0",
+    "erc721a-upgradeable": "^4.3.0"
+  },
+  "dependencies": {
+    "fs-jetpack": "5.1.0",
+    "sleep-promise": "^9.1.0"
+  }
+}
